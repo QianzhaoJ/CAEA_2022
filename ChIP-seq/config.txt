@@ -1,0 +1,62 @@
+# Configure all softwares
+perl=/work2/liugh/liuzunpeng/04_Softwares/perl/local/perl/bin/perl
+java=/work2/liugh/liuzunpeng/04_Softwares/java/jdk1.8.0_181/bin/java
+python=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/python
+python3=/work2/liugh/liuzunpeng/04_Softwares/python/local/python3/bin/python3
+Rscript=/work2/liugh/liuzunpeng/04_Softwares/R/local/R-3.2.5/bin/Rscript
+
+fastqc=/work2/liugh/liuzunpeng/04_Softwares/bin/fastqc
+fqvalue=/work2/liugh/liuzunpeng/04_Softwares/fqvalue/fqvalue_v2.4/fqvalue
+trim_galore=/work2/liugh/liuzunpeng/04_Softwares/trim_galore/TrimGalore-0.4.5/trim_galore
+cutadapt=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/cutadapt
+tophat=/work2/liugh/liuzunpeng/04_Softwares/topHat/tophat-2.1.1.Linux_x86_64/tophat2
+hisat2=/work2/liugh/liuzunpeng/04_Softwares/hisat2/hisat2-2.0.4/hisat2
+bowtie2=/work2/liugh/liuzunpeng/04_Softwares/bowtie/bowtie2-2.2.9/bowtie2
+samtools=/work2/liugh/liuzunpeng/04_Softwares/samtools/samtools-1.6/samtools
+HTseq=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/htseq-count
+stringTie=/work2/liugh/liuzunpeng/04_Softwares/stringTie/stringtie-1.2.3.Linux_x86_64/stringtie
+Salmon/work2/liugh/liuzunpeng/04_Softwares/salmon/Salmon-0.8.2_linux_x86_64/bin/salmon
+bedtools=/work2/liugh/liuzunpeng/04_Softwares/bedtools2/bin
+bamToBed=/work2/liugh/liuzunpeng/04_Softwares/bedtools2/bin/bamToBed
+genomeCoverageBed=/work2/liugh/liuzunpeng/04_Softwares/bedtools2/bin/genomeCoverageBed
+bedGraphToBigWig=/work2/liugh/liuzunpeng/04_Softwares/bedGraphToBigWig/bedGraphToBigWig
+Deeptools/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/
+bamCoverage=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/bamCoverage
+RepEnrich2_subset=/work2/liugh/liuzunpeng/04_Softwares/repeats/02_RepEnrich/RepEnrich2/RepEnrich2_subset.py
+RepEnrich2=/work2/liugh/liuzunpeng/04_Softwares/repeats/02_RepEnrich/RepEnrich2/RepEnrich2.py
+
+picard=/work2/liugh/liuzunpeng/04_Softwares/picard-tools/picard-tools-1.119/MarkDuplicates.jar
+macs2=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/macs2
+Deeptools=/work2/liugh/liuzunpeng/04_Softwares/deepTools/deepTools/local2/bin
+plotCoverage=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/plotCoverage
+computeMatrix=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/computeMatrix
+plotProfile=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/plotProfile
+plotHeatmap=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/plotHeatmap
+plotEnrichment=/work2/liugh/liuzunpeng/04_Softwares/python/local/python2/bin/plotEnrichment
+
+
+# Configure all reference
+chromosomesize=/work2/liugh/liuzunpeng/04_Softwares/bedtools2/genomes/human.hg19.genome
+gtf=/work2/liugh/liuzunpeng/03_database/00_genome/01_hg19/03_Ensembl/01_fa_gtf_bed_chr/Homo_sapiens.GRCh37.87.final.gtf
+ref=/work2/liugh/liuzunpeng/03_database/00_genome/01_hg19/03_Ensembl/01_fa_gtf_bed_chr/hg19.fa
+bowtie2_index=/work2/liugh/liuzunpeng/03_database/00_genome/01_hg19/03_Ensembl/01_fa_gtf_bed_chr/02_bowtie2_index/hg19
+hisat2_index=/work2/liugh/liuzunpeng/03_database/00_genome/01_hg19/03_Ensembl/01_fa_gtf_bed_chr/01_hisat2_index/hg19
+salmon_index=/work2/liugh/liuzunpeng/03_database/00_genome/01_hg19/03_Ensembl/cdna/hg19.salmon_index
+
+# Configure all source
+ATAC_seq_src=/work2/liugh/liuzunpeng/04_Softwares/ATAC_seq_src
+macs_stat=/work2/liugh/liuzunpeng/04_Softwares/ATAC_seq_src/macs_stat.pl
+Fragment_analysis=/work2/liugh/liuzunpeng/04_Softwares/ATAC_seq_src/Fragment_analysis.R
+ChIPseeker=/work2/liugh/liuzunpeng/04_Softwares/ATAC_seq_src/peak_seeker.r
+split_bam=/work2/liugh/liuzunpeng/04_Softwares/R-loop_src/split_bam.final.py
+RepEnrich2_setup=/work2/liugh/liuzunpeng/03_database/17_repenrich/Repenrich2/RepEnrich2_setup_hg19
+repeatmasker=/work2/liugh/liuzunpeng/03_database/17_repenrich/Repenrich2/hg19_repeatmasker_clean.txt
+
+
+# Configure all reference
+RefSeq_bed=/work2/liugh/liuzunpeng/03_database/00_genome/01_hg19/04_bed/hg19_RefSeq.bed
+fr_RefSeq_bed=/work2/liugh/liuzunpeng/03_database/00_genome/01_hg19/04_bed/hg19_RefSeq_forward.bed
+rev_RefSeq_bed=/work2/liugh/liuzunpeng/03_database/00_genome/01_hg19/04_bed/hg19_RefSeq_reverse.bed
+black_list=/work2/liugh/liuzunpeng/03_database/08_black_list/kundaje_EncodeHg19ConsensusSignalArtifactRegions.bed
+# promoter=
+# 
